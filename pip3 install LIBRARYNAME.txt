@@ -1,0 +1,16 @@
+pip3 install LIBRARYNAME
+pip3 freeze >> requirements.txt
+
+ -> cvzone will install OpenCV and numpy library, add mediapipe
+-> python version used - 
+-> cap. read() returns a bool ( True / False ). If the frame is read correctly, it will be True .
+-> CVzone is the main Framework that is used in this prototype, it is a computer vision package that makes us easy to run like face detection, hand tracking, pose estimation, etc., and also image processing and other AI functions.
+-> At the core it uses OpenCV and Mediapipe libraries.
+-> OpenCV is a powerful open-source library used for computer vision and image processing
+-> MediaPipe: Developed by Google, it provides cross-platform, customizable ML solutions for live and streaming media. It includes a module for human pose estimation.
+-> line 5:- cvzone is a library being used, and posemodule is a module within that library that contains a class or function named PoseDetector.
+-> os.listdir(path): Lists all files and directories in the specified path.
+-> import os in Python means that you are importing the os module. This module provides a way of using operating system-dependent functionality like reading or writing to the file system, interacting with the environment, and handling paths.
+-> cv2.imread() in the OpenCV library is used to read an image from a file. It loads an image from the specified file and returns it as a NumPy array. This array can then be used for further processing, such as displaying the image, performing image manipulations, or applying computer vision algorithms.
+-> os.path.join() function in Python is used to concatenate various parts of a file path into a single path string in an operating system-agnostic way.
+-> The cv2.IMREAD_UNCHANGED flag in OpenCV is used with the cv2.imread() function to read an image from a file without changing its original properties, including the alpha channel if it exists.
